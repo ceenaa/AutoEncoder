@@ -8,6 +8,9 @@ Autoencoders are a type of neural network used to learn efficient codings of inp
 * Decoder: Reconstructs the original image from the compressed latent representation.
 In this project, the autoencoder is trained on the MNIST dataset, which consists of handwritten digit images. The goal is to compress these images while retaining as much information as possible for accurate reconstruction.
 
+![image](https://github.com/user-attachments/assets/fb93cd9d-a141-4b9a-a9b6-5fb591d30a1b)
+
+
 # Model Architecture
 The autoencoder is composed of convolutional layers for both the encoder and decoder. Below is a brief overview of the architecture:
 
@@ -31,4 +34,10 @@ Before training, the model is used to visualize the reconstruction of the first 
 
 # Results
 After training, the model should be able to reconstruct the input images with minimal loss. The difference between the original images and their reconstructions can be observed to evaluate the model's performance.
+
+### Before training
+![image](https://github.com/user-attachments/assets/4316a9a6-9e3c-4fff-93ae-ea883eaa1220)
+
+### After only 15 epoch
+![image](https://github.com/user-attachments/assets/d14b7469-d635-4ece-9ebd-a8ae170dc1ab)
 
