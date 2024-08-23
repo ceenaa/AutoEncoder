@@ -15,10 +15,10 @@ In this project, the autoencoder is trained on the MNIST dataset, which consists
 The autoencoder is composed of convolutional layers for both the encoder and decoder. Below is a brief overview of the architecture:
 
 * Encoder
-The encoder compresses a 1x28x28 input image down to a 64x1x1 latent space representation.
+The `encoder` compresses a `1x28x28` input image down to a `64x1x1` latent space representation.
 It uses four convolutional layers with ReLU activations.
 * Decoder
-The decoder reconstructs the 64x1x1 latent space back to the original 1x28x28 image.
+The `decoder` reconstructs the `64x1x1` latent space back to the original `1x28x28` image.
 It uses four transpose convolutional layers with ReLU activations.
 * Loss Function
 The model is trained using Mean Squared Error (MSE) loss, which measures the difference between the input image and its reconstruction.
